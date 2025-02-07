@@ -117,8 +117,6 @@ save.image("deseq2_analysis.RData")
 ##Apro I risultati : resdata e copio i più differenziati 
  
  
-##Vado alla lezione 21 e copio codice e ‘run’
- 
   ############################################
 ## CLUSTERING ##############################
 ############################################
@@ -136,8 +134,7 @@ plotPCA(ntd, intgroup=c("condition"))
 save.image("deseq2_analysis.RData")
  
  
- 
-# Vado alla lezione 22
+
  
  
 ###################################
