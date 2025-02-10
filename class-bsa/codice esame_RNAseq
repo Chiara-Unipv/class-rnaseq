@@ -2,7 +2,7 @@
 cd /home/gitpod/datiesame
 mkdir -p rawdata
 
-## Per decompressione e simbolic link insieme
+## Per decompressione e spostamento insieme. Mi posiziono dove ho questi dati e scrivo il path di dove li voglio portare
 tar -xzvf esercizi_rnaseq_data01.tar.gz -C /workspace/class-rnaseq/datiesame/rawdata
 
 
