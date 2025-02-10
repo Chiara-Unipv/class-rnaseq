@@ -3,7 +3,7 @@ cd /home/gitpod/datiesame
 mkdir -p rawdata
 
 ## Per decompressione e simbolic link insieme
-tar -xzvf data_resequencing.tar.gz -C/config/workspace/class-variantcalling/analysis/raw_data
+tar -xzvf esercizi_rnaseq_data01.tar.gz -C /workspace/class-rnaseq/datiesame/rawdata
 
 
 ### check if you can execute salmon by typing "salmon" on the terminal
