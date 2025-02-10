@@ -10,6 +10,8 @@ tar -xzvf esercizi_rnaseq_data01.tar.gz -C /workspace/class-rnaseq/datiesame/raw
 ## sometimes it fails on RStudio terminal, on CodeSpaces while it works on GitPod
 ## export PATH=${PATH}:/usr/local/bin
 
+## mi assicuro di essere dentro alla cartella rawdata (campioni)
+
 for sample in `ls *_1.fasta.gz`
 do
 index="/home/gitpod/datiesame/datasets_reference_only/trascriptome/chr21_transcripts_index"
